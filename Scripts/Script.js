@@ -1,4 +1,11 @@
 $(document).ready(function(){
 	//alert("adsad");
-	$(".rooms")
-#
+	$(".menu").hide();
+//	$(".menu").toggle(function(){},function(){})
+	$(".accesspoint").click(function(){
+		$(".menu").toggle("fast",function(){
+				
+		});
+	})
+	alert("ds");
+});
