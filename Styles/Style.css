@@ -248,6 +248,72 @@ background: url("../images/arrow.png") 96% 50% no-repeat;
 /*=========================================================================*/
 /*=========================================================================*/
 /*=========================================================================*/
+
+
+
+
+
+#menu{
+	position: absolute;
+	left: 100px;
+	top: 100px;
+	width: 160px;
+	height: 210px;
+	text-decoration: none;
+	font-style: none;
+	background-color: #232427;
+	padding: 0px;
+	border-top: 3px solid #05b9ec;
+	
+}
+.menuul{
+	padding: 0px;
+	margin: 0px;
+}
+.menuul>li{
+	padding: 5px 0 0 14px ;
+	color: #868686;
+	display: inline-block;
+	width: 100%;
+	height: 30px;
+	list-style-type:none;
+	border-bottom: 1px solid #393a3d;
+}
+.menuul>li:last-child{
+border: none;
+}
+.menuul>li:hover{
+	padding: 5px 0 0 14px ;
+	color: #ccc;
+	display: inline-block;
+	width: 100%;
+	height: 30px;
+	list-style-type:none;
+	border-bottom: 1px solid #393a3d;
+}
+.menuul>li:last-child:hover{
+border: none;
+}
+.r{
+	color: red;
+}
+.g{
+	color: green;
+}
+.b{
+	color: blue;
+}
+.menuul>li:hover span{
+
+	color: #ccc;
+
+}
+
+
+
+
+/*=========================================================================*/
+
 #image_room{
 
 	background: #fff url("../images/room1.png") -10px 0 no-repeat;
@@ -273,7 +339,7 @@ background: url("../images/arrow.png") 96% 50% no-repeat;
 }
 .borderbg{
 	border-radius: 3px;
-	
+
 	padding: 5px;
 	position: relative;
 	width: 140px;
